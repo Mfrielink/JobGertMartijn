@@ -6,6 +6,7 @@ public class MainClass {
 
 		System.out.println("Test");
 		System.out.println("test 2");
+		System.out.println(12);
 
 		try {
 			RandomAccessFile raf = new RandomAccessFile("hello.txt", "rw");
