@@ -1,20 +1,18 @@
-import java.io.*;
-public class MainClass {
+import java.io.File;
 
+public class MainClass {
 
 	public static void main(String[] args) {
 
-		System.out.println("Test");
-		System.out.println("test 2");
-		System.out.println(12);
+		File folder = new File("C:/Users/Martijn/Documents/Files");
+		File[] listOfFiles = folder.listFiles();
 
-		try {
-			RandomAccessFile raf = new RandomAccessFile("hello.txt", "rw");
-			raf.writeBytes("Hello, world!\n");
-			raf.close();
-		} 
-		catch (IOException e) {
-			e.printStackTrace();
+		for (int i = 0; i < listOfFiles.length; i++) {
+			String filename = listOfFiles[i].getName();
+			System.out.println(filename);
+
 		}
+
 	}
+
 }
