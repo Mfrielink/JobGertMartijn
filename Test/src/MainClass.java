@@ -8,6 +8,7 @@ public class MainClass {
 
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 		
 		
 		
@@ -15,6 +16,8 @@ public class MainClass {
 		
 		
 =======
+=======
+>>>>>>> de4eaaf48404be9db91a86a3773ac8cd80a3abd5
 		File folder = new File("C:/Users/Martijn/Documents/Files");
 		File[] listOfFiles = folder.listFiles();
 
@@ -24,6 +27,9 @@ public class MainClass {
 
 		}
 
+<<<<<<< HEAD
+>>>>>>> de4eaaf48404be9db91a86a3773ac8cd80a3abd5
+=======
 >>>>>>> de4eaaf48404be9db91a86a3773ac8cd80a3abd5
 	}
 
